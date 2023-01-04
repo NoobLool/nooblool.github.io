@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio 5.16</title>
+        <style type="text/css">
+            body {margin: 4em;
+                text-align: justify;}
+            p{margin: 0.9em 0em;}
+            
+
+            @media handheld and (max-width: 480px),
+            screen and (max-device-width:480px),
+            screen and (max-width: 480px)
+            {
+                div{-webkit-column-count: 1;
+                    column-count: 1;}
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Mi perfil</h1>
+        </header>
+        <div class="multicolumna">
+
+            <article>
+                 <p>Mi nombre es Adrian Segundo Hipolito, tengo 22 años de edad y estoy estudiando en el Instituto Tecnologico Superior de Xalapa</p>
+            </article>
+            <article>
+              <h3>Sobre mi:</h3>
+              <p>Soy de Playa Vicente Veracruz. Mi familia esta conformada por mi papa, el cual se llama Pedro Segundo Pimentel, mi mama, Adriana Hipolito Espinosa y mi hermano Pedro Segundo Hipolito.
+              </p>
+            </article>
+            <article>
+              <h3>Pasatiempos:</h3>
+              <p>Mis actividades favoritas son:</p>
+                <ul>
+                    <li>Jugar voleibol</li>
+                    <li>Jugar videojuegos</li>
+                    <li>Escuchar musica</li>
+                    <li>Leer manga</li>
+                    <li>Mirar el cielo</li>
+                </ul>
+            </article>
+            <footer>
+                <em>Adrian Segundo Hipolito, 03/01/2023.</em>
+            </footer>
+        </div>
+
+        <input type="button" onclick="history.back()" name="Regresar" value="Regresar">
+    </body>
+</html>
